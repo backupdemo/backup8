@@ -163,7 +163,7 @@ tr {
 .powered{
     color: white;
     position: absolute;
-    top: 105%;
+    top: 94%;
     font-size: 15px;
     left: 80%;
 }
@@ -919,6 +919,7 @@ tr {
     }
 
     .hidediv {
+        z-index: -100 !important;
         transition: 0.3s;
         transition-timing-function: ease;
         display: none;
@@ -930,7 +931,7 @@ tr {
         position: fixed;
         z-index: -99;
     }
-
+   
 
     .headertoggle .newnavbar {
         position: fixed;
@@ -1596,7 +1597,8 @@ tr {
         transition-timing-function: ease;
         display: none;
         position: absolute;
-        transition-delay: 2000ms
+        transition-delay: 2000ms;
+
     }
 
     .hide {

@@ -15,7 +15,10 @@ body{
   transform: scale(1.1); 
 
 }
-
+.investor hr{
+  background-color: black;
+  
+}
 
 
 @media (min-width: 1281px) {
