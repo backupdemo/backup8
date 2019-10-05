@@ -34,10 +34,6 @@ body::-webkit-scrollbar-thumb
   transform: scale(1.1); 
 
 }
-.investor hr{
-  background-color: black;
-  
-}
 
 
 @media (min-width: 1281px) {
@@ -81,6 +77,9 @@ body::-webkit-scrollbar-thumb
 .navbar-brand>img:nth-child(2) {
     width: 45%;
     padding-left: 2vh;
+}
+.investorimg>img{
+  width: 100%;
 }
   .tushar_P{
     color:white;
@@ -245,6 +244,7 @@ body::-webkit-scrollbar-thumb
     font-size: 20px;
   }
   
+  
   #more {
     border: solid white;
     margin: 5px;
@@ -255,7 +255,9 @@ body::-webkit-scrollbar-thumb
     width: 150px;
     font-size: 20px;
   }
-  
+  #more:hover{
+    color: #02fe7f;
+}
   
   footer {
     /* position: relative; */
@@ -420,6 +422,49 @@ body::-webkit-scrollbar-thumb
     opacity: 1
   }
 }
+
+
+/* investor */
+.investor{
+  margin: 2% 0 3% 0;
+}
+.investorimage img{
+  width: 150px;
+  height: auto;
+  padding-top: 10px;
+  transition: transform .25s, visibility .25s ease-in;   
+  
+
+}
+.investorimage img:hover{
+  transform: scale(1.3);
+
+}
+.investorimage{
+  overflow: hidden;
+}
+.investorcolumn{
+  width: 25%;
+  float: left;
+  padding: 0px 10px;
+
+}
+
+
+.investorcard{
+  box-shadow: ;
+  background-color: transparent;
+  text-align:center;
+  border-radius: 20px;
+  padding-bottom: 15px;
+
+   
+}
+.investortitle{
+  color: black;
+  font-size: 18px;
+}
+
     
 }
 
@@ -613,7 +658,9 @@ body::-webkit-scrollbar-thumb
     width: 150px;
     font-size: 20px;
   }
-  
+  #more:hover{
+    color: #02fe7f;
+}
   
   footer {
     /* position: relative; */
@@ -876,7 +923,9 @@ body::-webkit-scrollbar-thumb
     font-size: 20px;
   }
   
-  
+  #more:hover{
+    color: #02fe7f;
+}
   footer {
     /* position: relative; */
     background: black;
@@ -1150,7 +1199,9 @@ body::-webkit-scrollbar-thumb
     width: 150px;
     font-size: 20px;
   }
-  
+  #more:hover{
+    color: #02fe7f;
+}
   
   footer {
     /* position: relative; */
@@ -1413,7 +1464,9 @@ body::-webkit-scrollbar-thumb
     font-size: 20px;
   }
   
-  
+  #more:hover{
+    color: #02fe7f;
+}
   footer {
     /* position: relative; */
     background: black;
@@ -1687,7 +1740,9 @@ section.row{
     width: 150px;
     font-size: 20px;
   }
-  
+  #more:hover{
+    color: #02fe7f;
+}
   
   footer {
     /* position: relative; */
