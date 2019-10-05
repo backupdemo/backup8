@@ -427,8 +427,10 @@ body::-webkit-scrollbar-thumb
 /* investor */
 .investor{
   margin: 2% 0 3% 0;
+  padding: 6%;
 }
-.investorimage img{
+
+.investor img{
   width: 150px;
   height: auto;
   padding-top: 10px;
@@ -436,7 +438,7 @@ body::-webkit-scrollbar-thumb
   
 
 }
-.investorimage img:hover{
+.investor img:hover{
   transform: scale(1.3);
 
 }
@@ -452,8 +454,8 @@ body::-webkit-scrollbar-thumb
 
 
 .investorcard{
-  box-shadow: ;
-  background-color: transparent;
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    background-color: white;
   text-align:center;
   border-radius: 20px;
   padding-bottom: 15px;
