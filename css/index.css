@@ -26,12 +26,16 @@ body::-webkit-scrollbar-thumb
 
 /* what why how card */
 .backup{
-    display: flex;
+    /* display: flex; */
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     font-family: '';
-    background: linear-gradient(45deg, #24006b, #f42f8c );
+    background: black;
+    padding: 5% 0 10% 0;
+}
+.backup .head{
+    padding: 0 0 5% 0;
 }
 .cont{
     width: 1200px;
@@ -46,7 +50,7 @@ body::-webkit-scrollbar-thumb
     height: 400px;
     margin: 0 auto;
     background: #fff;
-    box-shadow: 0 15px 60px rgba(0,0,0,0.5);
+    box-shadow: 0 15px 60px rgba(97, 97, 97, 0.5);
 }
 .cont .back_card .face{
     position: absolute;
@@ -72,13 +76,13 @@ body::-webkit-scrollbar-thumb
     transition: 0.5s;
 }
 .cont .back_card:nth-child(1) .face.face2{
-    background: linear-gradient(45deg, #3503ad, #f7308c ) 
+    background: linear-gradient(45deg, rgb(0, 0, 0), #02fe7f ) ;
 }
 .cont .back_card:nth-child(2) .face.face2{
-    background: linear-gradient(45deg, #3503ad, #f7308c ) 
+    background: linear-gradient(45deg, red, #000000 ) ;
 }
 .cont .back_card:nth-child(3) .face.face2{
-    background: linear-gradient(45deg, #3503ad, #f7308c ) 
+    background: linear-gradient(45deg, #000000, #02fe7f ) ;
 }
 .cont .back_card:hover .face.face2{
     height: 60px;
