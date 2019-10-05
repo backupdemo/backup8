@@ -4,7 +4,7 @@ html {
 body{
     background-image: url("../assets/Artboard.png")
 }
-body::-webkit-scrollbar-track
+/* body::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
@@ -22,7 +22,7 @@ body::-webkit-scrollbar-thumb
 	border-radius: none;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #D62929;
-}
+} */
 
 /* what why how card */
 .backup{
@@ -109,7 +109,7 @@ body::-webkit-scrollbar-thumb
 
 /* end */
 
-#load{
+/* #load{
     width:100%;
     top: 0;
     left: 0;
@@ -158,8 +158,8 @@ body::-webkit-scrollbar-thumb
     border-left: 1px solid #02fe7f;
 }
 
-/*We need to remove left-right connectors from elements without 
-any siblings*/
+We need to remove left-right connectors from elements without 
+any siblings
 .tree li:only-child::after,
 .tree li:only-child::before {
     display: none;
@@ -219,7 +219,7 @@ any siblings*/
 
 .tree li a:hover,
 .tree li a:hover+ul li a {
-    /* background: #02fe7f; */
+    background: #02fe7f;
     color: #02fe7f;
     border: 1px solid red;
 }
@@ -238,7 +238,7 @@ any siblings*/
     position: fixed;
     z-index:9999;
     background:url("../assets/logo1.gif") no-repeat center center black;
-}
+} */
 /* 
 @font-face {
     font-family: "CustomFont";
