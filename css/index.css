@@ -13,7 +13,7 @@ body::-webkit-scrollbar-track
 
 body::-webkit-scrollbar
 {
-	width: 15px;
+	/* width: 15px; */
 	background-color: #F5F5F5;
 }
 
@@ -354,7 +354,7 @@ tr {
     @import url("https://fonts.googleapis.com/css?family=El+Messiri");
 
     
-    img.animation-element.slide-left.testimonial.cont_img.in-view {
+ .in-view {
         width: 60%;
     }
 /* news */
@@ -714,7 +714,7 @@ tr {
     .quaffle {
         text-align: end;
         padding-right: 50px;
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     .navbar-brand>img:nth-child(1) {
@@ -1393,7 +1393,7 @@ tr {
     .quaffle {
         text-align: end;
         padding-right: 120px;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     #aboutus,
