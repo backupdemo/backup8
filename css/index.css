@@ -43,7 +43,7 @@ body::-webkit-scrollbar-thumb
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
-    grid-gap: 20px;
+    grid-gap: 50px;
     margin: 0 auto;
 }
 .cont .back_card{
@@ -609,7 +609,7 @@ tr {
         scroll-behavior: smooth;
     }
     .navbar-nav{
-        padding-left: 15%;
+        padding-left: 25%;
     }
     
     #container {
