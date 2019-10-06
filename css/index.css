@@ -25,29 +25,31 @@ body::-webkit-scrollbar-thumb
 } */
 
 /* what why how card */
+#ourfeatures{
+    background: black;
+    padding: 5% 0 10% 0;
+}
 .backup{
-    /* display: flex; */
+    display: flex;
     justify-content: center;
     align-items: center;
     /* min-height: 100vh; */
     font-family: '';
-    background: black;
-    padding: 5% 0 10% 0;
 }
-.backup .head{
+.head{
     padding: 0 0 5% 0;
 }
 .cont{
     width: 1200px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px , 1fr));
-    grid-gap: 20px;
+    grid-gap: 50px;
     margin: 0 auto;
 }
 .cont .back_card{
     position: relative;
-    width: 300px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     margin: 0 auto;
     background: #fff;
     box-shadow: 0 15px 60px rgba(97, 97, 97, 0.5);
@@ -607,7 +609,7 @@ tr {
         scroll-behavior: smooth;
     }
     .navbar-nav{
-        padding-left: 15%;
+        padding-left: 25%;
     }
     
     #container {
