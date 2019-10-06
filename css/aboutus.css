@@ -788,6 +788,62 @@ width: 90% !important;
 padding-top:5px !important;
 }
   
+
+#hidden2{
+  margin: 0 0 2% 0;
+}
+.shadow-lg {
+  transition: transform .5s;
+
+}
+.shadow-lg:hover{
+  transform: scale(1.1); 
+
+}
+/* investor */
+.investor{
+  margin: -6% 0 0 0;
+  padding: 6%;
+}
+
+.investorimage img{
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  transition: transform .25s, visibility .25s ease-in;   
+  
+
+}
+.investorimage img:hover{
+  transform: scale(1.3);
+
+}
+.investorimage{
+  overflow: hidden;
+}
+.investorcolumn{
+  width: 25%;
+  float: left;
+  padding: 0px 10px;
+
+}
+
+
+.investorcard{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    background-color: white;
+  text-align:center;
+  border-radius: 20px;
+  padding-bottom: 15px;
+
+   
+}
+.investortitle{
+  color: black;
+  font-size: 18px;
+}
+
+    
 }
 
 /* 
@@ -825,11 +881,13 @@ padding-top:5px !important;
     width: 30rem;
 }
 .navbar-brand>img:nth-child(1) {
-    width: 20%;
+    width: 12%;
 }
 
 .navbar-brand>img:nth-child(2) {
     width: 55%;
+    margin-right: 20%;
+
 }
   .fixed {
     position: sticky;
@@ -1105,8 +1163,7 @@ padding-top:5px !important;
   text-align:center;
   border-radius: 20px;
   padding-bottom: 15px;
-
-   
+overflow: hidden;
 }
 .investortitle{
   color: black;
@@ -1138,6 +1195,61 @@ padding-top: 20px;
 width: 90% !important;
 padding-top:5px !important;
 }
+    
+#hidden2{
+  margin: 0 0 2% 0;
+}
+.shadow-lg {
+  transition: transform .5s;
+
+}
+.shadow-lg:hover{
+  transform: scale(1.1); 
+
+}
+/* investor */
+.investor{
+  margin: -6% 0 0 0;
+  padding: 6%;
+}
+
+.investorimage img{
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  transition: transform .25s, visibility .25s ease-in;   
+  
+
+}
+.investorimage img:hover{
+  transform: scale(1.3);
+
+}
+.investorimage{
+  overflow: hidden;
+}
+.investorcolumn{
+  width: 25%;
+  float: left;
+  padding: 0px 10px;
+
+}
+
+
+.investorcard{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    background-color: white;
+  text-align:center;
+  border-radius: 20px;
+  padding-bottom: 15px;
+
+   
+}
+.investortitle{
+  color: black;
+  font-size: 18px;
+}
+
     
 }
 
@@ -1172,11 +1284,13 @@ padding-top:5px !important;
     width: 30rem;
 }
 .navbar-brand>img:nth-child(1) {
-    width: 20%;
+    width: 9%;
 }
-
+.mx-auto.my-2.order-0.order-md-1.position-relative{
+  text-align: center;
+}
 .navbar-brand>img:nth-child(2) {
-    width: 55%;
+    width: 40%;
 }
 .aboutp{
   text-align: justify; 
@@ -1436,6 +1550,63 @@ padding-top: 20px;
 width: 90% !important;
 padding-top:5px !important;
 }
+
+
+#hidden2{
+  margin: 0 0 2% 0;
+}
+.shadow-lg {
+  transition: transform .5s;
+
+}
+.shadow-lg:hover{
+  transform: scale(1.1); 
+
+}
+/* investor */
+.investor{
+  margin: -6% 0 0 0;
+  padding: 6%;
+}
+
+.investorimage img{
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  transition: transform .25s, visibility .25s ease-in;   
+  
+
+}
+.investorimage img:hover{
+  transform: scale(1.3);
+
+}
+.investorimage{
+  overflow: hidden;
+}
+.investorcolumn{
+  width: 25%;
+  float: left;
+  padding: 0px 10px;
+
+}
+
+
+.investorcard{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    background-color: white;
+  text-align:center;
+  border-radius: 20px;
+  padding-bottom: 15px;
+
+   
+}
+.investortitle{
+  color: black;
+  font-size: 18px;
+}
+
+    
 }
 
 /* 
@@ -1467,11 +1638,11 @@ padding-top:5px !important;
 }
   
 .navbar-brand>img:nth-child(1) {
-    width: 20%;
+    width: 9%;
 }
 
 .navbar-brand>img:nth-child(2) {
-    width: 55%;
+    width: 40%;
 }
 .aboutp{
   text-align: justify;
@@ -1739,6 +1910,59 @@ padding-top: 20px;
 width: 90% !important;
 padding-top:5px !important;
 }
+
+#hidden2{
+  margin: 0 0 2% 0;
+}
+.shadow-lg {
+  transition: transform .5s;
+
+}
+.shadow-lg:hover{
+  transform: scale(1.1); 
+
+}
+/* investor */
+.investor{
+   margin: -6% 0 0 0;
+  padding:6%;
+}
+
+.investorimage img{
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  transition: transform .25s, visibility .25s ease-in;   
+  
+
+}
+.investorimage img:hover{
+  transform: scale(1.3);
+
+}
+.investorimage{
+  overflow: hidden;
+}
+.mx-auto.my-2.order-0.order-md-1.position-relative{
+  text-align: center;
+}
+
+
+.investorcard{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    background-color: white;
+  text-align:center;
+  border-radius: 20px;
+  padding-bottom: 15px;
+
+   
+}
+.investortitle{
+  color: black;
+  font-size: 18px;
+}
+
+    
 }
 
 /* 
@@ -1756,6 +1980,9 @@ padding-top:5px !important;
     overflow-x: hidden;
     scroll-behavior: smooth;
   }
+  h1{
+    font-size: 3em !important;
+  }
   .navbar-nav{
     padding-left: 15%;
 }
@@ -1771,7 +1998,7 @@ padding-top:5px !important;
     width: 13rem;
 }
 .navbar-brand>img:nth-child(1) {
-    width: 20%;
+    width: 12%;
 }
 .aboutp{
   text-align: justify;
@@ -1780,7 +2007,11 @@ padding-top:5px !important;
 }
 
 .navbar-brand>img:nth-child(2) {
-    width: 45%;
+    width: 40%;
+    margin-left: -33%
+}
+a.navbar-brand{
+  display: contents;
 }
   .fixed {
     position: sticky;
@@ -1819,6 +2050,7 @@ padding-top:5px !important;
   button:focus {
     outline:0;
   }
+
   #button_head {
     z-index: 100;
     /* border: none; */
@@ -1827,9 +2059,9 @@ padding-top:5px !important;
     border: 2px solid white;
     border-radius: 2em;
     background: black;
-    width: 120px;
-    height: 50px;
-    font-size: 18px;
+    width: 101px;
+    height: 44px;
+    font-size: 16px;
   }
   
   #button_head a {
@@ -2015,4 +2247,87 @@ width: inherit;
 section.row{
   padding: inherit;
 }
+
+#hidden2{
+  margin: 0 0 2% 0;
+}
+.shadow-lg {
+  transition: transform .5s;
+
+}
+.shadow-lg:hover{
+  transform: scale(1.1); 
+
+}
+/* investor */
+img{
+  width: 100%;
+}
+
+.section-4 .team{
+  padding:  5vmin 5vmin 5vmin 5vmin;
+}
+.section-4 .card{
+  margin-top: 10vmin;
+}
+.section-4 .card .card-text{
+  padding: 1.5em 0.5em 0.5em 0.5em;
+  font-size: 16px;
+}
+.section-4 .card .card-body>a{
+  font-size: 1.5em;
+}
+.section-4 .carousel-item{
+  padding-left: 3rem;
+}
+.card-img-top>img{
+width: 80%;
+padding-top: 20px;
+}
+.top1>img{
+width: 90% !important;
+padding-top:5px !important;
+}
+.investor{
+  margin: -6% 0 0 0;
+  padding: 6%;
+}
+
+.investorimage img{
+  width: 100%;
+  height: auto;
+  padding-top: 10px;
+  transition: transform .25s, visibility .25s ease-in;   
+  
+
+}
+.investorimage img:hover{
+  transform: scale(1.3);
+
+}
+.investorimage{
+  overflow: hidden;
+}
+.mx-auto.my-2.order-0.order-md-1.position-relative{
+  display: contents;
+}
+
+div#hidden2{
+  padding-left: 0 !important;
+}
+.investorcard{
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+    background-color: white;
+  text-align:center;
+  border-radius: 20px;
+  padding-bottom: 15px;
+margin-bottom: 2%;
+   
+}
+.investortitle{
+  color: black;
+  font-size: 18px;
+}
+
+    
 }
