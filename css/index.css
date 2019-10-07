@@ -344,6 +344,13 @@ tr {
     color: #02fe7f;
 }
 
+.images{
+    transition: transform .5s;
+}
+.images:hover{
+    transform: scale(1.1);
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -1037,7 +1044,7 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
-    img.animation-element.slide-left.testimonial.cont_img.in-view {
+    .in-view {
         width: 60%;
     }
 
@@ -2920,7 +2927,7 @@ visibility: hidden;
     .noti{
         display: none !important;
     }
-    img.animation-element.slide-left.testimonial.cont_img.in-view {
+   .in-view {
         width: 60%;
     }
 /* news */
