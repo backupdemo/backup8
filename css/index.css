@@ -4,7 +4,7 @@ html {
 body{
     background-image: url("../assets/Artboard.png")
 }
-/* body::-webkit-scrollbar-track
+body::-webkit-scrollbar-track
 {
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
 	border-radius: 10px;
@@ -13,7 +13,7 @@ body{
 
 body::-webkit-scrollbar
 {
-	width: 15px;
+	/* width: 15px; */
 	background-color: #F5F5F5;
 }
 
@@ -22,7 +22,7 @@ body::-webkit-scrollbar-thumb
 	border-radius: none;
 	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
 	background-color: #D62929;
-} */
+}
 
 /* what why how card */
 #ourfeatures{
@@ -344,6 +344,13 @@ tr {
     color: #02fe7f;
 }
 
+.images{
+    transition: transform .5s;
+}
+.images:hover{
+    transform: scale(1.1);
+}
+
 /* 
   ##Device = Desktops
   ##Screen = 1281px to higher resolution desktops
@@ -354,7 +361,7 @@ tr {
     @import url("https://fonts.googleapis.com/css?family=El+Messiri");
 
     
-    img.animation-element.slide-left.testimonial.cont_img.in-view {
+ .in-view {
         width: 60%;
     }
 /* news */
@@ -714,7 +721,7 @@ tr {
     .quaffle {
         text-align: end;
         padding-right: 50px;
-        font-size: 1.3em;
+        font-size: 1.2em;
     }
 
     .navbar-brand>img:nth-child(1) {
@@ -1037,7 +1044,7 @@ tr {
         overflow-x: hidden;
         scroll-behavior: smooth;
     }
-    img.animation-element.slide-left.testimonial.cont_img.in-view {
+    .in-view {
         width: 60%;
     }
 
@@ -1393,7 +1400,7 @@ tr {
     .quaffle {
         text-align: end;
         padding-right: 120px;
-        font-size: 1.5em;
+        font-size: 1.2em;
     }
 
     #aboutus,
@@ -1713,7 +1720,7 @@ tr {
         scroll-behavior: smooth;
     }
     
-    img.animation-element.slide-left.testimonial.cont_img.in-view {
+   .cont_img.in-view {
         width: 60%;
     }
 /* news */
@@ -1799,6 +1806,7 @@ tr {
   }
   
 .noti{
+    display: none;
     position: absolute;
     width: 400px;
     /* height: 150px; */
@@ -1899,7 +1907,8 @@ tr {
             box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.25);
             /* padding: 50px 20px; */
             background-color: #fff; 
-            cursor: pointer; }
+            cursor: pointer;
+         }
             
         .hi-slide > ul > li > img { width: 100%; height: 100%; background-position: center;}
 
@@ -1949,7 +1958,7 @@ tr {
 
 
     svg.datamap{
-        margin-top: 114px;
+        margin-top: 0;
         height: 580px;
        
     }
@@ -1983,13 +1992,14 @@ tr {
     }
 
     .navbar-brand>img:nth-child(1) {
-        width: 18%;
+        width: 12%;
         padding-left: 1vh;
     }
 
     .navbar-brand>img:nth-child(2) {
-        width: 45%;
+        width: 35%;
         padding-left: 2vh;
+        margin-right: 20%;
     }
 
     button:focus {
@@ -1997,6 +2007,7 @@ tr {
     }
 
     .main-heading {
+visibility: hidden;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -2141,7 +2152,6 @@ tr {
     #particles-js {
         /* z-index: 1; */
         width: 100%;
-        height: 100vh;
         /* position: fixed; */
         display: flex;
         /* text-align: center;
@@ -2157,8 +2167,8 @@ tr {
 
     #myHeader {
         position: fixed;
-        background-color: transparent;
-        background: transparent;
+        background-color: black;
+        background: black;
         backface-visibility: hidden;
     }
     .bg-dark{
@@ -2318,8 +2328,11 @@ tr {
         scroll-behavior: smooth;
     }
     
-    img.animation-element.slide-left.testimonial.cont_img.in-view {
+   .in-view {
         width: 60%;
+    }
+    h1{
+        font-size: 4em !important;
     }
 /* news */
 .arrowright{
@@ -2583,13 +2596,14 @@ tr {
     }
 
     .navbar-brand>img:nth-child(1) {
-        width: 18%;
+        width: 8%;
         padding-left: 1vh;
     }
 
     .navbar-brand>img:nth-child(2) {
-        width: 45%;
+        width: 34%;
         padding-left: 2vh;
+        margin-right: 25%;
     }
 
     .about_img {
@@ -2913,7 +2927,7 @@ tr {
     .noti{
         display: none !important;
     }
-    img.animation-element.slide-left.testimonial.cont_img.in-view {
+   .in-view {
         width: 60%;
     }
 /* news */
