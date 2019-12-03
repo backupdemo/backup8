@@ -33,7 +33,7 @@ body::-webkit-scrollbar-thumb
     z-index:99999;
     background:url("../assets/logo1.gif") no-repeat center center black;
 }
-.tree ul {
+/* .tree ul {
     padding-top: 20px;
     position: relative;
     transition: all 0.5s;
@@ -75,17 +75,17 @@ body::-webkit-scrollbar-thumb
 
 /*We need to remove left-right connectors from elements without 
 any siblings*/
-.tree li:only-child::after,
+/* .tree li:only-child::after,
 .tree li:only-child::before {
     display: none;
 }
 
 .tree li:only-child {
     padding-top: 0;
-}
+} */
 
 
-.tree li:first-child::before,
+/* .tree li:first-child::before,
 .tree li:last-child::after {
     border: 0 none;
 }
@@ -130,16 +130,16 @@ any siblings*/
     transition: all 0.5s;
     -webkit-transition: all 0.5s;
     -moz-transition: all 0.5s;
-}
+} */
 
-.tree li a:hover,
+/* .tree li a:hover,
 .tree li a:hover+ul li a {
-    /* background: #02fe7f; */
+    background: #02fe7f;
     color: #02fe7f;
     border: 1px solid red;
-}
+} */
 
-.tree li a:hover+ul li::after,
+/* .tree li a:hover+ul li::after,
 .tree li a:hover+ul li::before,
 .tree li a:hover+ul::before,
 .tree li a:hover+ul ul::before {
@@ -153,6 +153,169 @@ any siblings*/
     position: fixed;
     z-index:9999;
     background:url("../assets/logo1.gif") no-repeat center center black;
+}  */
+
+.backup {
+    /* margin: 5%; */
+    padding-top: 5%;
+    padding-bottom: 5%;
+    margin-right: 5%;
+    margin-left: 5%;
+    overflow-x: hidden;
+}
+
+.backlogo {
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.backlogo img:nth-child(1) {
+    width: 7%;
+}
+
+.backlogo img:nth-child(2) {
+    width: 20%;
+    padding-left: 20px;
+}
+
+.box {
+    position: relative;
+    /* transform: translate(-50%,-50%); */
+    /* width: 350px; */
+    /* height: 400px; */
+    padding: 10px;
+    margin: auto;
+    background: #001e2d;
+    box-sizing: border-box;
+    box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5);
+    border: 2px solid rgba(0, 0, 0, 0.5);
+}
+
+.box::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 100%;
+    width: 50%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.2);
+    transition: 0.5;
+    pointer-events: none;
+}
+
+.box:hover::before {
+    left: -50%;
+    transform: skewX(-5deg);
+    transition: 0.5s;
+}
+
+.box .content {
+    /* position: absolute; */
+    top: 1%;
+    left: 1%;
+    right: 1%;
+    bottom: 1%;
+    border: 2px solid #9c9c9c;
+    padding: 30px;
+    text-align: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.box .content h2 {
+    color: white;
+    /* font-size: 2em; */
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    padding: 0;
+}
+
+.box .content p {
+    padding: 30px 0 0 0;
+    color: white;
+    font-size: 15px;
+}
+
+.box .content a {
+    position: relative;
+    margin: 20px 0 0;
+    padding: 10px 20px;
+    text-decoration: none;
+    border: 1px solid #fff;
+    display: inline-block;
+    color: #fff;
+    transition: 0.5s;
+    transform: translateY(-40px);
+    opacity: 0;
+    visibility: hidden;
+}
+
+.box:hover .content a {
+    transform: translateY(0);
+    opacity: 1;
+    visibility: visible;
+}
+
+.box .content a:hover {
+    color: #000;
+    background: #fff;
+}
+
+.box span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: block;
+    box-sizing: border-box;
+}
+
+.box span:nth-child(1) {
+    transform: rotate(0deg);
+}
+/* .box span:nth-child(2) {
+    transform: rotate(90deg);
+} */
+.box span:nth-child(3) {
+    transform: rotate(180deg);
+}
+/* .box span:nth-child(4) {
+    transform: rotate(270deg);
+} */
+
+.box span::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    background: #02fe7f;
+}
+
+.box:hover>span::before {
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scaleX(0);
+        transform-origin: left;
+    }
+
+    50% {
+        transform: scaleX(1);
+        transform-origin: left;
+    }
+
+    50.1% {
+        transform: scaleX(1);
+        transform-origin: right;
+    }
+
+    100% {
+        transform: scaleX(0);
+        transform-origin: right;
+    }
+
 }
 /* 
 @font-face {
@@ -189,13 +352,13 @@ tr {
 .btn span {
     color: red !important;
 }
-
+/* 
 .box {
     border: 2px solid #02fe7f;
     width: 300px;
     height: 30%;
     background: transparent;
-}
+} */
 
 .heading {
     background: #02fe7f;
