@@ -9,11 +9,11 @@ window.onscroll = function () {
   function myFunction() {
    
     if (document.body.scrollTop > 280 || document.documentElement.scrollTop > 280) {
-      // header.classList.add("hidediv");
-      $("#fadein").fadeOut(200);
+      header.classList.add("hidediv");
+      // $("#fadein").fadeOut(10);
     } else {
-      // header.classList.remove("hidediv");
-      $("#fadein").fadeIn(500);
+      header.classList.remove("hidediv");
+      // $("#fadein").fadeIn(500);
     }
   }
   
